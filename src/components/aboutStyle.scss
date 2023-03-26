@@ -1,0 +1,228 @@
+.sectionContainerAbout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #16181d;
+  min-height: 100vh;
+}
+.sectionCenterAbout {
+  display: grid;
+  justify-content: center;
+  width: 90vw;
+  padding: 6rem 0;
+}
+.aboutLeft {
+  padding: 1rem;
+  border: 1px solid #4f5869;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.aboutLeftTitle {
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #4f5869;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #f6f7f9;
+}
+.spanContainer {
+  position: relative;
+  display: inline-block;
+  height: 3rem;
+  transform: translateY(-30%);
+  width: calc(100% - 4rem);
+}
+.htmlIcon {
+  font-size: 3rem;
+  color: #d84924;
+}
+.htmlText {
+  position: absolute;
+  top: calc(100% - 1.5rem);
+  left: 0;
+  font-size: 1.5rem;
+  color: #d84924;
+  animation: animateTwo 4s linear infinite;
+}
+.cssIcon {
+  font-size: 3rem;
+  color: #2449d8;
+}
+.cssText {
+  position: absolute;
+  top: calc(100% - 1.5rem);
+  left: 0;
+  font-size: 1.5rem;
+  color: #2449d8;
+  animation: animateTwo 4s linear infinite;
+  animation-delay: 0.1s;
+}
+.jsIcon {
+  font-size: 3rem;
+  color: #e4d04b;
+}
+.javaScriptText {
+  position: absolute;
+  top: calc(100% - 1.5rem);
+  left: 0;
+  font-size: 1.5rem;
+  color: #e4d04b;
+  animation: animateTwo 4s linear infinite;
+  animation-delay: 0.2s;
+}
+.reactIcon {
+  font-size: 3rem;
+  color: #5ccfee;
+}
+.reactText {
+  position: absolute;
+  top: calc(100% - 1.5rem);
+  left: 0;
+  font-size: 1.5rem;
+  color: #5ccfee;
+  animation: animateTwo 4s linear infinite;
+  animation-delay: 0.3s;
+}
+.nodeIcon {
+  font-size: 3rem;
+  color: #21ab58;
+}
+.nodeText {
+  position: absolute;
+  top: calc(100% - 1.5rem);
+  left: 0;
+  font-size: 1.5rem;
+  color: #21ab58;
+  animation: animateTwo 4s linear infinite;
+  animation-delay: 0.4s;
+}
+.expressBg {
+  width: 45px;
+  height: 45px;
+  background: #f6f7f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expressIcon {
+  font-size: 2.5rem;
+  color: #000000;
+}
+.expressText {
+  position: absolute;
+  top: calc(100% - 1.5rem);
+  left: 0;
+  font-size: 1.5rem;
+  color: #f6f7f9;
+  animation: animateTwo 4s linear infinite;
+  animation-delay: 0.5s;
+}
+.aboutRightBg {
+  background: #343a46;
+  border: 1px solid #4f5869;
+  // margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+@keyframes animateTwo {
+  0% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(250px);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+.aboutTitle {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #f6f7f9;
+}
+.aboutLeftTitle {
+  span:nth-child(1) {
+    color: #d84924;
+  }
+  span:nth-child(2) {
+    color: #2449d8;
+  }
+  span:nth-child(3) {
+    color: #e4d04b;
+  }
+  span:nth-child(4) {
+    color: #5ccfee;
+  }
+  span:nth-child(5) {
+    color: #21ab58;
+  }
+}
+.aboutText {
+  font-size: 1rem;
+  padding-bottom: 3rem;
+  color: #f6f7f9;
+}
+.contactIcon {
+  font-size: 2rem;
+  color: #ff7997;
+}
+.contactBtn {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 1.5rem;
+  border-radius: 3px;
+  border: 1px solid #ff7997;
+  font-size: 1rem;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #f6f7f9;
+  span {
+    padding-left: 0.5rem;
+  }
+}
+.contactBtn:hover {
+  background: #16181d;
+}
+.singleToolContainer {
+  margin-bottom: 0.5rem;
+}
+.underlineAbout {
+  width: 150px;
+  height: 6px;
+  border-radius: 3px;
+  background: #f6f7f9;
+  margin-bottom: 2rem;
+}
+
+.portret {
+  width: 120px;
+  border-radius: 49%;
+  border: 3px solid #f6f7f9;
+}
+@media only screen and (min-width: 1250px) {
+  .sectionCenterAbout {
+    width: 70vw;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 1rem;
+  }
+  .aboutLeftTitle {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .aboutTitle {
+    font-size: 3rem;
+    margin-top: 0;
+  }
+  .aboutText {
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+  }
+  .aboutLeft {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,108 @@
+.sectionContainerContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #16181d;
+  min-height: 100vh;
+}
+.sectionCenterContact {
+  min-height: 100vh;
+  padding: 0 auto;
+  width: 90vw;
+  padding: 6rem 0;
+  background: #16181d;
+  text-align: center;
+}
+.contactTitle {
+  font-size: 3rem;
+  color: #f6f7f9;
+  letter-spacing: 0.3rem;
+}
+.contactTitleText {
+  font-size: 1rem;
+  color: #f6f7f9;
+  margin-bottom: 3rem;
+  span {
+    color: #ff7997;
+  }
+}
+.formContainer {
+  background: #343a46;
+  width: 90vw;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  border: 1px solid #4f5869;
+  text-align: start;
+}
+.formInput {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+.singleFormInput {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background: #16181d;
+  color: #f6f7f9;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.textArea {
+  height: 10rem;
+  margin-top: 1rem;
+}
+label {
+  color: #f6f7f9;
+  font-size: 1.3rem;
+}
+input {
+  margin-top: 1rem;
+}
+.submitBtn {
+  background: transparent;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #ff7997;
+  color: #f6f7f9;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .submitIcon {
+    font-size: 1.8rem;
+    color: #ff7997;
+    margin-right: 1rem;
+  }
+}
+.submitBtn:hover {
+  background: #16181d;
+}
+.formInputSubmit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+[placeholder='Your name...'],
+[placeholder='Your email...'],
+[placeholder='Your message...'] {
+  color: #f6f7f9;
+  font-weight: 800;
+  letter-spacing: 0.15rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media only screen and (min-width: 900px) {
+  .sectionCenterContact {
+    width: 70vw;
+  }
+  .contactTitleText {
+    font-size: 1.3rem;
+  }
+  .formContainer {
+    width: 50vw;
+  }
+}

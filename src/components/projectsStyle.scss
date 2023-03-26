@@ -1,0 +1,144 @@
+.sectionContainerProjects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #23272f;
+}
+.sectionCenterProjects {
+  padding: 0 auto;
+  width: 90vw;
+  padding: 6rem 0;
+  background: #23272f;
+  text-align: center;
+}
+
+.projectsTitle {
+  font-size: 3rem;
+  color: #f6f7f9;
+  letter-spacing: 0.3rem;
+}
+.projectsTitleText {
+  font-size: 1rem;
+  color: #f6f7f9;
+  margin-bottom: 5rem;
+}
+.singleProjectContainer {
+  display: grid;
+}
+.projectPicture {
+  img {
+    width: 90vw;
+    border-radius: 10px;
+  }
+}
+.projectsRight {
+  text-align: start;
+  img {
+    width: 45px;
+  }
+}
+.projectTitle {
+  display: inline-block;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  font-size: 2.5rem;
+  color: #f6f7f9;
+}
+.projectDescription {
+  font-size: 1rem;
+  color: #f6f7f9;
+  margin-bottom: 2rem;
+  #htmlIcon {
+    color: #d84924;
+  }
+  #cssIcon {
+    color: #2449d8;
+  }
+  #javaScriptIcon {
+    color: #e4d04b;
+  }
+  #reactIcon {
+    color: #5ccfee;
+  }
+  #nodeIcon {
+    color: #21ab58;
+  }
+  #expressIcon {
+    color: #23272f;
+    background-color: #f6f7f9;
+  }
+}
+.liveGitBtnContainer {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 0 1rem;
+}
+.liveGitBtn {
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+}
+.liveBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 1rem;
+  border-radius: 3px;
+  border: 1px solid #4a8dc6;
+  font-size: 1rem;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #f6f7f9;
+  img {
+    width: 2rem;
+    margin-right: 1rem;
+  }
+}
+.liveBtn:hover {
+  background: #374151;
+}
+.gitBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 1rem;
+  border-radius: 3px;
+  border: 1px solid #4f5869;
+  font-size: 1rem;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #f6f7f9;
+  .gitHubIcon {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+}
+.gitBtn:hover {
+  background: #374151;
+}
+
+@media only screen and (min-width: 1200px) {
+  .sectionCenterProjects {
+    width: 70vw;
+  }
+  .projectsTitleText {
+    font-size: 1.3rem;
+  }
+  .singleProjectContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 1rem;
+  }
+  .projectPicture {
+    img {
+      width: 30vw;
+    }
+  }
+  .projectTitle {
+    margin-top: 0;
+  }
+  .projectDescription {
+    font-size: 1.3rem;
+  }
+}

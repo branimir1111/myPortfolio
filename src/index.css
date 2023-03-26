@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blueGrey50: #f8fafc;
+  --blueGrey100: #f1f5f9;
+  --blueGrey200: #e2e8f0;
+  --blueGrey300: #cbd5e1;
+  --blueGrey400: #94a3b8;
+  --blueGrey500: #64748b;
+  --blueGrey600: #475569;
+  --blueGrey700: #334155;
+  --blueGrey800: #1e293b;
+  --blueGrey900: #0f172a;
+  --spacing: 0.1rem;
+  --transition: all 0.2s linear;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 14px;
+  line-height: 1.5;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.underline {
+  width: 150px;
+  height: 6px;
+  border-radius: 3px;
+  background: #f6f7f9;
+  margin: 0.5rem auto 1rem auto;
+}
+.backToTop {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 80vh;
+  left: 80vw;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #4f5869;
+  box-shadow: 0px 0px 30px #a8b1c4;
+  background-color: #374151;
+  cursor: pointer;
+}
+.backToTop:hover {
+  background: #0f172a;
+}
+.backToTopIcon {
+  font-size: 2.8rem;
+  color: #0077b5;
+}
+@media only screen and (min-width: 768px) {
+  .backToTop {
+    top: 80vh;
+    left: 90vw;
+  }
+}

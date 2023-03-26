@@ -1,0 +1,85 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #23272f;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: var(--transition);
+}
+.sidebarOpen {
+  z-index: 10;
+  transform: translateX(0);
+}
+.logo {
+  width: 80px;
+  opacity: 0.8;
+}
+.logo:hover {
+  opacity: 1;
+}
+.headerCenter {
+  width: 100%;
+  background: #16181d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  width: 90vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background: #16181d;
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+.closeBtn {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #149eca;
+  cursor: pointer;
+}
+.closeBtn:hover {
+  color: #3ebde8;
+}
+.linksContainerSidebar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainLinksSidebar {
+  width: 90vw;
+}
+.navLinkSidebar {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  transition: var(--transition);
+  a {
+    color: #149eca;
+    text-transform: uppercase;
+    padding: 1rem 0;
+  }
+  a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #3ebde8;
+  }
+}
+
+.linkSidebarBtn {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+@media only screen and (min-width: 768px) {
+  .sidebarOpen {
+    display: none;
+  }
+}
