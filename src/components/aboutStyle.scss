@@ -129,7 +129,7 @@
     transform: translateX(10px);
   }
   50% {
-    transform: translateX(250px);
+    transform: translateX(150px);
   }
   100% {
     transform: translateX(10px);
@@ -224,5 +224,16 @@
   }
   .aboutLeft {
     margin-bottom: 0;
+  }
+  @keyframes animateTwo {
+    0% {
+      transform: translateX(10px);
+    }
+    50% {
+      transform: translateX(250px);
+    }
+    100% {
+      transform: translateX(10px);
+    }
   }
 }
