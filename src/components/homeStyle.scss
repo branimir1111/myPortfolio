@@ -10,14 +10,13 @@
   color: #f6f7f9;
 }
 .homeLeft {
-  // width: 90vw;
   display: flex;
   align-items: center;
 }
 .homeLeftBg {
   background: #16181d;
   border: 1px solid #4f5869;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border-radius: 10px;
 }
 .welcomeTitle {
@@ -169,6 +168,9 @@
   }
   .welcomeText {
     font-size: 1.3rem;
+  }
+  .homeLeftBg {
+    padding: 1rem 2rem;
   }
   .homeRight {
     margin-top: 0;
