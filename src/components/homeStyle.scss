@@ -35,10 +35,14 @@
   padding-bottom: 1rem;
 }
 .btnContainer {
-  display: grid;
-  grid-template-columns: auto auto 1fr;
-  gap: 0 1rem;
+  // display: grid;
+  // grid-template-columns: auto auto 1fr;
+  // gap: 0 1rem;
+  display: flex;
   margin-bottom: 2rem;
+}
+.spaceBtn {
+  width: 1rem;
 }
 .projectsIcon {
   font-size: 2rem;

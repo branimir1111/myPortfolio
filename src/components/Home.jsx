@@ -42,6 +42,7 @@ const Home = () => {
                   <span>Projects</span>
                 </button>
               </a>
+              <div className='spaceBtn'></div>
               <a
                 href='https://www.linkedin.com/in/branimir-djordjevic-530251226/'
                 target='_blank'
