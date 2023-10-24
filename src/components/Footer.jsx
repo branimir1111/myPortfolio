@@ -21,7 +21,7 @@ const Footer = () => {
           <div className='footerContentLeft'>
             <h2>BRANIMIR DjORDjEVIC</h2>
             <h2 className='juniorFullStackDeveloper'>
-              Full Stack Web Developer
+              Frontend Web Developer
             </h2>
           </div>
           <div className='footerContentRight'>
