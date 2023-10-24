@@ -63,7 +63,7 @@ const About = () => {
           <div className='underlineAbout'></div>
           <p className='aboutText'>
             <em>
-              My name is Branimir Djordjevic and I am full stack web developer.{' '}
+              My name is Branimir Djordjevic and I am frontend web developer.{' '}
               <br />I really enjoy creating functional web applications that
               solve customer problems. In addition to the tools I already use in
               my applications, I am always open to new technologies that can
