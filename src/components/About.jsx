@@ -63,11 +63,14 @@ const About = () => {
           <div className='underlineAbout'></div>
           <p className='aboutText'>
             <em>
-              My name is Branimir Djordjevic and I am frontend web developer.{' '}
-              <br />I really enjoy creating functional web applications that
-              solve customer problems. In addition to the tools I already use in
-              my applications, I am always open to new technologies that can
-              improve my work.
+              I care deeply about the people that I work with, because 
+              developing a good working relationship with others is what 
+              makes projects and companies successful. To me a huge part 
+              of being a developer is communicating well with your team. 
+              I enjoy programming because of the satisfaction I get from 
+              taking a rough concept of something that doesn't yet exist 
+              and making it exist. Each project comes with its own set of 
+              challenges. This keeps me interested and constantly adapting.
             </em>
           </p>
           <a href='#contact'>
