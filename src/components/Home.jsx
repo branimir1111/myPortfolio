@@ -31,8 +31,7 @@ const Home = () => {
             </h1>
             <p className='welcomeText'>
               <em>
-                I am a frontend web developer and I like to build functional
-                web applications.
+                I am a frontend web developer.
               </em>
             </p>
             <div className='btnContainer'>
